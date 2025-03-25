@@ -38,7 +38,7 @@ tl
 document.getElementById("submitButton").addEventListener("click", function() {
     var password = document.getElementById("passwordInput").value.toLowerCase();
     if (password === "nostflix") {
-        window.location.href = "main.html";
+        window.location.href = "finalpage.html";
     } else {
         alert("Incorrect password. Please try again.");
     }
